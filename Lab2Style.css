@@ -1,0 +1,22 @@
+body {
+  margin: 20px 100px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  background-color: black;
+}
+
+section {
+  border-style: solid;
+  border-color: yellow;
+  margin: 20px 0px;
+  padding-left: 20px;
+}
+
+body h2 {
+  font-weight: 900;
+  color: red;
+}
+
+header {
+  text-align: center;
+}
