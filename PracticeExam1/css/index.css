@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo > img {
+  width: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social li {
+  list-style: none;
+}
+
+.menu {
+  display: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: gray;
+  color: white;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
